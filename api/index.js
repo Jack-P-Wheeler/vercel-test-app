@@ -4,8 +4,8 @@ const express = require("express");
 const app = express();
 
 // Create GET request
-app.get("/api", (req, res) => {
-    res.send("Express on Vercel");
+app.get("/", (req, res) => {
+    res.send("Just another FUN test!!!");
 });
 
 // Initialize server
